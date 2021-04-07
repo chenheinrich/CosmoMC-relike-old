@@ -1,0 +1,7 @@
+*.err
+*.out
+*.swp
+*.sbatch
+cosmomc/kde_data/chains_all
+cosmomc/chains
+

@@ -1,0 +1,238 @@
+omegabh2      \Omega_b h^2	#physical baryon density
+omegach2      \Omega_c h^2	#physical CDM matter density
+theta         100\theta_{MC} #100 times the ratio of the angular diameter distance to the LSS sound horizon (approx)
+tau           \tau
+omegak        \Omega_K
+mnu           \Sigma m_\nu    #sum of physical masses of standard neutrinos
+meffsterile   m_{\nu,{\rm{sterile}}}^{\rm{eff}}  #effective mass of sterile neutrino, \approx omeganuh2*94
+w             w			#equation of state parameter for scalar field dark energy today
+wa            w_a       #w_a variation
+nnu           N_{eff}   #effective number of neutrinos (only clearly defined for massless)
+yhe           Y_{He}    #Helium mass fraction (not used if bbn_consistency)    
+alpha1        \alpha_{-1} #correlated CDM isocurvature 
+deltazrei     {\Delta}z_{\rm re} #width of reionization
+Alens         A_{L}     #lensing potential scaled by sqrt(A_lens)
+Alensf        A^f_L     #amplitude of smoothing power from fiducial models 
+fdm           \epsilon_0 f_d #CosmoRec dark matter annihilation parameter, 0910.3663
+reion_m1    m_{1}^{re}
+reion_m2    m_{2}^{re}
+reion_m3    m_{3}^{re}
+reion_m4    m_{4}^{re}
+reion_m5    m_{5}^{re}
+reion_m6    m_{6}^{re}
+reion_m7    m_{7}^{re}
+logA          {\rm{ln}}(10^{10} A_s)
+ns            n_s	    #beware that pivot scale can change in .ini file
+nrun          n_{\rm run}
+nrunrun       n_{\rm run, run}
+r             r #ratio of tensor to scalar primordial amplitudes at pivot scale
+nt            n_t
+ntrun         n_{t,{\rm run}}
+Aphiphi       A^{\phi\phi}_L #scaling of lensing potential power (lensed power spectra unchanged)
+H0*           H_0		#hubble parameter is H0 km/s/Mpc
+omegal*       \Omega_\Lambda
+omegam*       \Omega_m
+omegamh2*     \Omega_m h^2 #includes massive neutrinos
+omeganuh2*    \Omega_\nu h^2 
+omegamh3*     \Omega_m h^3 #well determined orthogonal to degeneracy for 6-param model
+sigma8*       \sigma_8
+s8omegamp5*   \sigma_8 \Omega_m^{0.5}
+s8omegamp25*  \sigma_8 \Omega_m^{0.25}
+s8h5*         \sigma_8/h^{0.5}
+rmsdeflect*   \langle d^2\rangle^{1/2}  #rms lensing deflection in arcmin (2<=L<=2000)
+zrei*         z_{\rm re}
+A*            10^9 A_s
+clamp*        10^9 A_s e^{-2\tau}   #parameter determining C_l amplitude
+DL2*         D_{2}	 #L(L+1)C_L/2pi at L=2 in muK^2
+DL3*         D_{3}
+DL4*         D_{4}
+DL5*         D_{5}
+DL6*         D_{6}   
+DL7*         D_{7}
+DL8*         D_{8}
+DL9*         D_{9}
+DL10*         D_{10}
+DL11*         D_{11}
+DL12*         D_{12}	 
+DL13*         D_{13}
+DL14*         D_{14}
+DL15*         D_{15}
+DL16*         D_{16}   
+DL17*         D_{17}
+DL18*         D_{18}
+DL19*         D_{19}
+DL20*         D_{20}
+DL21*         D_{21}
+DL22*         D_{22}	 
+DL23*         D_{23}
+DL24*         D_{24}
+DL25*         D_{25}
+DL26*         D_{26}   
+DL27*         D_{27}
+DL28*         D_{28}
+DL29*         D_{29}
+DL30*         D_{30}
+DL31*         D_{31}
+DL32*         D_{32}	 
+DL33*         D_{33}
+DL34*         D_{34}
+DL35*         D_{35}
+DL36*         D_{36}   
+DL37*         D_{37}
+DL38*         D_{38}
+DL39*         D_{39}
+DL40*         D_{40}
+DL41*         D_{41}
+DL42*         D_{42}	 
+DL43*         D_{43}
+DL44*         D_{44}
+DL45*         D_{45}
+DL46*         D_{46}   
+DL47*         D_{47}
+DL48*         D_{48}
+DL49*         D_{49}
+DL50*         D_{50}
+DL51*         D_{51}
+DL52*         D_{52}	 
+DL53*         D_{53}
+DL54*         D_{54}
+DL55*         D_{55}
+DL56*         D_{56}   
+DL57*         D_{57}
+DL58*         D_{58}
+DL59*         D_{59}
+DL60*         D_{60}
+DL220*        D_{220}  #L(L+1)C_L/2pi at L=220 in muK^2
+DL810*        D_{810}  #L(L+1)C_L/2pi at L=810 in muK^2
+DL1420*       D_{1420} #L(L+1)C_L/2pi at L=1420 in muK^2
+DL2000*       D_{2000} #L(L+1)C_L/2pi at L=2000 in muK^2
+DLEE2*       D^{EE}_{2}	 #L(L+1)C_L^EE/2pi at L=2 in muK^2
+DLEE3*       D^{EE}_{3}
+DLEE4*       D^{EE}_{4}
+DLEE5*       D^{EE}_{5}
+DLEE6*       D^{EE}_{6}   
+DLEE7*       D^{EE}_{7}
+DLEE8*       D^{EE}_{8}
+DLEE9*       D^{EE}_{9}
+DLEE10*       D^{EE}_{10}
+DLEE11*       D^{EE}_{11}
+DLEE12*       D^{EE}_{12}	 
+DLEE13*       D^{EE}_{13}
+DLEE14*       D^{EE}_{14}
+DLEE15*       D^{EE}_{15}
+DLEE16*       D^{EE}_{16}   
+DLEE17*       D^{EE}_{17}
+DLEE18*       D^{EE}_{18}
+DLEE19*       D^{EE}_{19}
+DLEE20*       D^{EE}_{20}
+DLEE21*       D^{EE}_{21}
+DLEE22*       D^{EE}_{22}	 
+DLEE23*       D^{EE}_{23}
+DLEE24*       D^{EE}_{24}
+DLEE25*       D^{EE}_{25}
+DLEE26*       D^{EE}_{26}   
+DLEE27*       D^{EE}_{27}
+DLEE28*       D^{EE}_{28}
+DLEE29*       D^{EE}_{29}
+DLEE30*       D^{EE}_{30}
+DLEE31*       D^{EE}_{31}
+DLEE32*       D^{EE}_{32}	 
+DLEE33*       D^{EE}_{33}
+DLEE34*       D^{EE}_{34}
+DLEE35*       D^{EE}_{35}
+DLEE36*       D^{EE}_{36}   
+DLEE37*       D^{EE}_{37}
+DLEE38*       D^{EE}_{38}
+DLEE39*       D^{EE}_{39}
+DLEE40*       D^{EE}_{40}
+DLEE41*       D^{EE}_{41}
+DLEE42*       D^{EE}_{42}	 
+DLEE43*       D^{EE}_{43}
+DLEE44*       D^{EE}_{44}
+DLEE45*       D^{EE}_{45}
+DLEE46*       D^{EE}_{46}   
+DLEE47*       D^{EE}_{47}
+DLEE48*       D^{EE}_{48}
+DLEE49*       D^{EE}_{49}
+DLEE50*       D^{EE}_{50}
+DLEE51*       D^{EE}_{51}
+DLEE52*       D^{EE}_{52}	 
+DLEE53*       D^{EE}_{53}
+DLEE54*       D^{EE}_{54}
+DLEE55*       D^{EE}_{55}
+DLEE56*       D^{EE}_{56}   
+DLEE57*       D^{EE}_{57}
+DLEE58*       D^{EE}_{58}
+DLEE59*       D^{EE}_{59}
+DLEE60*       D^{EE}_{60}
+DLEE220*      D^{EE}_{220}  #L(L+1)C_LEE/2pi at L=220 in muK^2
+DLEE810*      D^{EE}_{810}  #L(L+1)C_LEE/2pi at L=810 in muK^2
+DLEE1420*     D^{EE}_{1420} #L(L+1)C_LEE/2pi at L=1420 in muK^2
+DLEE2000*     D^{EE}_{2000} #L(L+1)C_LEE/2pi at L=2000 in muK^2
+DLTE2*       D^{TE}_{2}	 #L(L+1)C_L^TE/2pi at L=2 in muK^2
+DLTE3*       D^{TE}_{3}
+DLTE4*       D^{TE}_{4}
+DLTE5*       D^{TE}_{5}
+DLTE6*       D^{TE}_{6}   
+DLTE7*       D^{TE}_{7}
+DLTE8*       D^{TE}_{8}
+DLTE9*       D^{TE}_{9}
+DLTE10*       D^{TE}_{10}
+DLTE11*       D^{TE}_{11}
+DLTE12*       D^{TE}_{12}	 
+DLTE13*       D^{TE}_{13}
+DLTE14*       D^{TE}_{14}
+DLTE15*       D^{TE}_{15}
+DLTE16*       D^{TE}_{16}   
+DLTE17*       D^{TE}_{17}
+DLTE18*       D^{TE}_{18}
+DLTE19*       D^{TE}_{19}
+DLTE20*       D^{TE}_{20}
+DLTE21*       D^{TE}_{21}
+DLTE22*       D^{TE}_{22}	 
+DLTE23*       D^{TE}_{23}
+DLTE24*       D^{TE}_{24}
+DLTE25*       D^{TE}_{25}
+DLTE26*       D^{TE}_{26}   
+DLTE27*       D^{TE}_{27}
+DLTE28*       D^{TE}_{28}
+DLTE29*       D^{TE}_{29}
+DLTE30*       D^{TE}_{30}
+DLTE31*       D^{TE}_{31}
+DLTE32*       D^{TE}_{32}	 
+DLTE33*       D^{TE}_{33}
+DLTE34*       D^{TE}_{34}
+DLTE35*       D^{TE}_{35}
+DLTE36*       D^{TE}_{36}   
+DLTE37*       D^{TE}_{37}
+DLTE38*       D^{TE}_{38}
+DLTE39*       D^{TE}_{39}
+DLTE40*       D^{TE}_{40}
+DLTE41*       D^{TE}_{41}
+DLTE42*       D^{TE}_{42}	 
+DLTE43*       D^{TE}_{43}
+DLTE44*       D^{TE}_{44}
+DLTE45*       D^{TE}_{45}
+DLTE46*       D^{TE}_{46}   
+DLTE47*       D^{TE}_{47}
+DLTE48*       D^{TE}_{48}
+DLTE49*       D^{TE}_{49}
+DLTE50*       D^{TE}_{50}
+DLTE51*       D^{TE}_{51}
+DLTE52*       D^{TE}_{52}	 
+DLTE53*       D^{TE}_{53}
+DLTE54*       D^{TE}_{54}
+DLTE55*       D^{TE}_{55}
+DLTE56*       D^{TE}_{56}   
+DLTE57*       D^{TE}_{57}
+DLTE58*       D^{TE}_{58}
+DLTE59*       D^{TE}_{59}
+DLTE60*       D^{TE}_{60}
+DLTE220*      D^{TE}_{220}  #L(L+1)C_LTE/2pi at L=220 in muK^2
+DLTE810*      D^{TE}_{810}  #L(L+1)C_LTE/2pi at L=810 in muK^2
+DLTE1420*     D^{TE}_{1420} #L(L+1)C_LTE/2pi at L=1420 in muK^2
+DLTE2000*     D^{TE}_{2000} #L(L+1)C_LTE/2pi at L=2000 in muK^2
+ns02*         n_{s,0.002}
+yheused*      Y_P #MCMC value or from bbn consistency (mass definition)
+YpBBN*        Y_P^{\rm{BBN}} #MCMC value or from bbn consistency (nucleon definition)
+tau2*         \tau #optical depth
