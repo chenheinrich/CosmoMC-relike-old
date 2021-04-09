@@ -33,8 +33,8 @@ module KernelDensityEstimate
     character(LEN=1024) :: default_fn_invcov_spec= "kde_data/pl18_zmax30/invcov_spec.dat"
 
     character(LEN=1024) :: default_fn_mean= "kde_data/pl18_zmax30/mean.dat"
-    character(LEN=1024) :: default_fn_chain = 'kde_data/chains_all/chains.txt'  
-    character(LEN=1024) :: default_fn_chain_spec = 'kde_data/chains_all/spec.txt'
+    character(LEN=1024) :: default_fn_chain = 'kde_data/pl18_zmax30/chains/chains.txt'  
+    character(LEN=1024) :: default_fn_chain_spec = 'kde_data/pl18_zmax30/chains/spec.txt'
 
     character(LEN=1024) :: default_kde_or_gaussian = 'kde'
     
@@ -179,7 +179,6 @@ contains
     integer :: status, i, j, n_simpson = 1000
     integer :: nmjs, nz
     class(RelikeKde) :: this
-    logical :: write_xez = .false.
 
     nmjs = this%kde_xe_basis%nbasis
 
@@ -200,30 +199,12 @@ contains
     zmax = this%kde_xe_basis%zmax
     step_size = (zmax-zmin)/dfloat(n_simpson)
 
-    if (write_xez == .true.) then
-      open(unit = 300, file = 'cosmo_kde_xez_no_helium.dat')
-       open(unit = 301, file = 'cosmo_kde_xe_fid.dat')
-       open(unit = 302, file = 'cosmo_kde_xez_standalone_no_helium.dat')
-    end if
-
     ! Make xe table 
     do i = 1, nz
       z = zmin + (dfloat(i)-1) * step_size
       xe(i) = custom_xe(transformed_parameters, z) 
       xe_fid_array(i) = xe_fiducial(this%kde_xe_basis, z)
       call this%kde_xe_basis%eval_basis(z, integrand(i, 1:nmjs))
-      
-      if (write_xez == .true.) then
-        write(300,*) z, xe(i)
-        write(301,*) z, xe_fid_array(i)
-      end if
-    end do
-
-    if (write_xez == .true.) then
-      close(300)
-      close(301)
-      close(302)
-    end if
 
     ! Calculate integrand and performs integral for the projection
     do j = 1, nmjs
